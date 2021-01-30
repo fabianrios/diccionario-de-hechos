@@ -5,7 +5,7 @@ Prueba comision de la verdad (Nuxt, vuetify ,D3.js)
 ## Build Setup
 
 ```bash
-# install dependencies
+# Instalar dependencias
 $ yarn install
 
 # serve with hot reload at localhost:3000
