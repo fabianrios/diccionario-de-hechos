@@ -1,0 +1,85 @@
+.v-main__wrap {
+  background: $bg;
+}
+
+.theme--light.v-application {
+  background: $bg !important;
+}
+
+h1 {
+  text-align: left;
+  font-size: 40px;
+  margin: auto;
+  -webkit-text-stroke: 1.5px $stroke;
+  color: #FB8279;
+  margin-top: 1em;
+}
+
+
+#dataviz_area {
+  width: 100%;
+  height: 1200px;
+  margin-top: 2em;
+}
+
+/* svg selections */
+rect {
+  fill: $bg;
+  stroke: $stroke;
+  stroke-width: 1.5px;
+  cursor: pointer;
+  transition: fill .3s ease;
+}
+
+.active.pink {
+  fill: #FB8279;
+  stroke: $stroke;
+}
+
+.active.yellow {
+  fill: #FAF636;
+  stroke: $stroke;
+}
+
+.active.green {
+  fill: #65FC4D;
+  stroke: $stroke;
+}
+
+.line.activelink {
+  fill: none;
+  stroke: $stroke;
+  stroke-width: 1.5px;
+}
+
+.label {
+  fill: $stroke;
+  pointer-events: none;
+  font-size: 12px;
+  stroke-width: 0;
+}
+.line {
+  fill: none;
+  stroke: #CCC;
+  stroke-width: 1.5px;
+}
+
+.titulo {
+  stroke: $stroke;
+  stroke-width: 1.2px;
+  font-size: 30px !important;
+  font-weight: bold;
+  text-anchor: middle;
+}
+
+.titulo.tesauro {
+  fill: #FAF636;
+}
+
+.titulo.ruv{
+  fill: #FB8279;
+}
+
+.titulo.cnmh{
+  fill: #65FC4D;
+}
