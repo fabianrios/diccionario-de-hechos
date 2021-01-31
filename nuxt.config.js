@@ -24,9 +24,12 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Se visualizan las equivalencias entre términos de hechos entre el tesauro y las bases de datos del RUV y del CNMH. Asimismo se incluyen tablas con las definiciones de cada término' },
-      { hid: 'date', name: 'date', content: '2021-01-30' },
       { hid: 'keywords', name: 'keywords', content: 'CNMH, Definiciones, grafo, Hechos victimizantes, RUV, Tableros, Tesauro' },
-      { hid: 'og:image', property: 'og:image', content: '/miniatura.png' }
+      { hid: 'author', name: 'author', content: 'Fabian Rios' },
+      { hid: 'article:published_time', name: 'published_time', property: 'article:published_time', content: '2021-01-30' },
+      { hid: 'og:image', name: 'image', property: 'og:image', content: '/miniatura.png' },
+      { property: "og:image:width", content: "800" },
+      { property: "og:image:height", content: "600" },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
