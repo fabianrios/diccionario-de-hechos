@@ -10,8 +10,8 @@ export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
 
-  server: {
-    host: process.env.ROOT || 'https://master.d1hfnvrap9clpw.amplifyapp.com/' // default: localhost
+  axios: {
+    baseURL: process.env.ROOT || 'http://localhost:3000', // Used as fallback if no runtime config is provided
   },
 
   head: {
