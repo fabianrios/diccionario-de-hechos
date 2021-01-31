@@ -28,14 +28,16 @@
       fixed
       app
     >
-      <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
+      <v-app-bar-nav-icon aria-label="nav var" @click.stop="drawer = !drawer" />
       <v-btn
+        aria-label="expand menu text"
         icon
         @click.stop="miniVariant = !miniVariant"
       >
         <v-icon>mdi-{{ `chevron-${miniVariant ? 'right' : 'left'}` }}</v-icon>
       </v-btn>
       <v-btn
+        aria-label="footer fixed"
         icon
         @click.stop="fixed = !fixed"
       >
