@@ -11,7 +11,7 @@ export default {
   target: 'static',
 
   server: {
-    host: process.env.ROOT || 'localhost' // default: localhost
+    host: process.env.ROOT || 'https://master.d1hfnvrap9clpw.amplifyapp.com/' // default: localhost
   },
 
   head: {
