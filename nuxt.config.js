@@ -5,10 +5,10 @@ export default {
     ROOT: process.env.ROOT,
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
-  ssr: false,
+  ssr: true,
 
   // Target (https://go.nuxtjs.dev/config-target)
-  target: 'static',
+  target: 'server',
 
   axios: {
     baseURL: process.env.ROOT || 'http://localhost:3000', // Used as fallback if no runtime config is provided
