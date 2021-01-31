@@ -1,11 +1,18 @@
 import colors from 'vuetify/es5/util/colors'
 
 export default {
+  env: {
+    ROOT: process.env.ROOT,
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   ssr: false,
 
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
+
+  server: {
+    host: process.env.ROOT || 'localhost' // default: localhost
+  },
 
   head: {
     titleTemplate: '%s',

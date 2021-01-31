@@ -17,8 +17,8 @@ export default {
   },
   async asyncData({ $axios }) {
     const [edges, nodes] = await Promise.all([
-      $axios.$get('api/edges_hechos.json'),
-      $axios.$get('api/nodos_hechos.json'),
+      $axios.$get('/api/edges_hechos.json'),
+      $axios.$get('/api/nodos_hechos.json'),
     ]);
     return { edges: edges, nodes: nodes };
   },
